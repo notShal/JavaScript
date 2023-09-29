@@ -2,7 +2,8 @@
 
 body {
     background: rgb(66, 86, 197);
-    font: normal 1em arial;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
 }
 
 header {
@@ -19,8 +20,14 @@ section {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.349);
 }
 
+div {
+    text-align: center;
+    padding: 8px;
+}
+
 footer {
     color: white;
     text-align: center;
     font-style: italic;
+    font-size: .5em;
 }
